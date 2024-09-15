@@ -1,0 +1,20 @@
+aerobody_tests_NOT_BUILT-b12d07c 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+VelocityVector 0 0
+Aerobody: 0 0
+Aerobody: 0 0
+VelocityVector Constructors: from_cartesian_components 1 0.00337888
+VelocityVector Constructors: from_polar_components 1 0.0029886
+VelocityVector Utilities: get_magnitude 1 0.00854088
+VelocityVector Utilities: get_heading 0 0
+VelocityVector Utilities: angle_between 0 0
+Aerobody: get_wind 0 0
+Aerobody: aerodynamic_drag 0 0
+---
+VelocityVector Utilities: get_heading
+VelocityVector Utilities: angle_between
+Aerobody: get_wind
+Aerobody: aerodynamic_drag

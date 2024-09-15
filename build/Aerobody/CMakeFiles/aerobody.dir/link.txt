@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaerobody.a CMakeFiles/aerobody.dir/Aerobody.cpp.o
+/usr/bin/ranlib libaerobody.a

@@ -1,0 +1,2927 @@
+Start testing: Sep 15 12:50 EDT
+----------------------------------------------------------
+1/7 Testing: VelocityVector Constructors: from_cartesian_components
+1/7 Test: VelocityVector Constructors: from_cartesian_components
+Command: "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/aerobody_tests" "VelocityVector Constructors: from_cartesian_components"
+Directory: /home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody
+"VelocityVector Constructors: from_cartesian_components" start time: Sep 15 12:50 EDT
+Output:
+----------------------------------------------------------
+Filters: "VelocityVector Constructors: from_cartesian_components"
+Randomness seeded to: 1803693682
+===============================================================================
+All tests passed (44 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VelocityVector Constructors: from_cartesian_components" end time: Sep 15 12:50 EDT
+"VelocityVector Constructors: from_cartesian_components" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: VelocityVector Constructors: from_polar_components
+2/7 Test: VelocityVector Constructors: from_polar_components
+Command: "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/aerobody_tests" "VelocityVector Constructors: from_polar_components"
+Directory: /home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody
+"VelocityVector Constructors: from_polar_components" start time: Sep 15 12:50 EDT
+Output:
+----------------------------------------------------------
+Filters: "VelocityVector Constructors: from_polar_components"
+Randomness seeded to: 1344798863
+===============================================================================
+All tests passed (44 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VelocityVector Constructors: from_polar_components" end time: Sep 15 12:50 EDT
+"VelocityVector Constructors: from_polar_components" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: VelocityVector Utilities: get_magnitude
+3/7 Test: VelocityVector Utilities: get_magnitude
+Command: "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/aerobody_tests" "VelocityVector Utilities: get_magnitude"
+Directory: /home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody
+"VelocityVector Utilities: get_magnitude" start time: Sep 15 12:50 EDT
+Output:
+----------------------------------------------------------
+Filters: "VelocityVector Utilities: get_magnitude"
+Randomness seeded to: 1285807395
+===============================================================================
+All tests passed (55 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VelocityVector Utilities: get_magnitude" end time: Sep 15 12:50 EDT
+"VelocityVector Utilities: get_magnitude" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: VelocityVector Utilities: get_heading
+4/7 Test: VelocityVector Utilities: get_heading
+Command: "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/aerobody_tests" "VelocityVector Utilities: get_heading"
+Directory: /home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody
+"VelocityVector Utilities: get_heading" start time: Sep 15 12:50 EDT
+Output:
+----------------------------------------------------------
+Filters: "VelocityVector Utilities: get_heading"
+Randomness seeded to: 4244130856
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aerobody_tests is a Catch2 v3.6.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 1
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:513
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:515: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(9.27465, EPSILON) )
+with expansion:
+  2.99146632679489688 and 9.27464999999999939 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 3
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:523
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:525: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-0.16724, EPSILON) )
+with expansion:
+  6.11594163397448298 and -0.16724 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 5
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:533
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:535: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-1.09304, EPSILON) )
+with expansion:
+  5.19014163397448236 and -1.09304000000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 6
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:538
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:540: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(8.59156, EPSILON) )
+with expansion:
+  2.30837632679489646 and 8.59155999999999942 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 7
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:543
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:545: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(8.45634, EPSILON) )
+with expansion:
+  2.17315332679489659 and 8.45634000000000086 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 9
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:553
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:555: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-0.883946, EPSILON) )
+with expansion:
+  5.39924163397448265 and -0.88394600000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 10
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:558
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:560: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(9.06067, EPSILON) )
+with expansion:
+  2.7774863267948966 and 9.06067 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 12
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:568
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:570: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(8.3296, EPSILON) )
+with expansion:
+  2.0464123267948966 and 8.32959999999999923 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 14
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:578
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:580: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-1.47877, EPSILON) )
+with expansion:
+  4.80441163397448268 and -1.47876999999999992 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 20
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:608
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:610: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-1.13159, EPSILON) )
+with expansion:
+  5.15160163397448301 and -1.1315900000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 22
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:618
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:620: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(9.31602, EPSILON) )
+with expansion:
+  3.03283632679489656 and 9.31601999999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 25
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:633
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:635: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-0.628107, EPSILON) )
+with expansion:
+  5.65508163397448271 and -0.62810699999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 26
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:638
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:640: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(9.40821, EPSILON) )
+with expansion:
+  3.12502632679489656 and 9.40821000000000041 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 27
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:643
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:645: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(8.2115, EPSILON) )
+with expansion:
+  1.92831932679489659 and 8.21149999999999913 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 28
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:648
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:650: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(7.97101, EPSILON) )
+with expansion:
+  1.68782132679489671 and 7.97100999999999971 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 29
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:653
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:655: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(8.857, EPSILON) )
+with expansion:
+  2.5738163267948968 and 8.85699999999999932 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 31
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:663
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:665: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-1.11613, EPSILON) )
+with expansion:
+  5.16705163397448342 and -1.11613000000000007 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 32
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:668
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:670: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-1.3294, EPSILON) )
+with expansion:
+  4.9537816339744829 and -1.32939999999999992 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 34
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:678
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:680: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-1.16217, EPSILON) )
+with expansion:
+  5.12101163397448289 and -1.16216999999999993 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 39
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:703
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:705: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-0.699788, EPSILON) )
+with expansion:
+  5.58340163397448297 and -0.69978799999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 40
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:708
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:710: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-1.49848, EPSILON) )
+with expansion:
+  4.78471163397448329 and -1.49848000000000003 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 41
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:713
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:715: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-0.597467, EPSILON) )
+with expansion:
+  5.68572163397448271 and -0.59746699999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 42
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:718
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:720: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(9.12894, EPSILON) )
+with expansion:
+  2.84575632679489665 and 9.12894000000000005 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 43
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:723
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:725: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-0.570917, EPSILON) )
+with expansion:
+  5.71227163397448301 and -0.57091700000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: get_heading
+  Random Test 46
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:738
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:740: FAILED:
+  REQUIRE_THAT( v.get_heading(), WithinRel(-0.865935, EPSILON) )
+with expansion:
+  5.41725163397448295 and -0.86593500000000001 are within 0.1% of each other
+
+===============================================================================
+test cases:  1 |  0 passed |  1 failed
+assertions: 50 | 25 passed | 25 failed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"VelocityVector Utilities: get_heading" end time: Sep 15 12:50 EDT
+"VelocityVector Utilities: get_heading" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: VelocityVector Utilities: angle_between
+5/7 Test: VelocityVector Utilities: angle_between
+Command: "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/aerobody_tests" "VelocityVector Utilities: angle_between"
+Directory: /home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody
+"VelocityVector Utilities: angle_between" start time: Sep 15 12:50 EDT
+Output:
+----------------------------------------------------------
+Filters: "VelocityVector Utilities: angle_between"
+Randomness seeded to: 243994088
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aerobody_tests is a Catch2 v3.6.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Standard Tests
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:761
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:767: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-std::numbers::pi / 2, EPSILON) )
+with expansion:
+  1.57079632679489656 and -1.57079632679489656 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 0
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:776
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:779: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.85688, EPSILON) )
+with expansion:
+  1.85688000000000009 and -1.85688000000000009 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 1
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:783
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:786: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(2.11758, EPSILON) )
+with expansion:
+  -2.11757399999999985 and 2.1175799999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 2
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:790
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:793: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(1.79344, EPSILON) )
+with expansion:
+  -1.79344530717958639 and 1.79343999999999992 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 3
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:797
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:800: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.27013, EPSILON) )
+with expansion:
+  2.27013299999999996 and -2.27012999999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 4
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:804
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:807: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.83493, EPSILON) )
+with expansion:
+  1.83493530717958642 and -1.83492999999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 5
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:811
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:814: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.98244, EPSILON) )
+with expansion:
+  2.98243899999999984 and -2.98243999999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 6
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:818
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:821: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-3.0015, EPSILON) )
+with expansion:
+  3.00149999999999961 and -3.00150000000000006 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 7
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:825
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:828: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.800632, EPSILON) )
+with expansion:
+  -0.80063000000000017 and 0.80063200000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 8
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:832
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:835: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.46303, EPSILON) )
+with expansion:
+  1.46303499999999986 and -1.46303000000000005 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 9
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:839
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:842: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(2.04236, EPSILON) )
+with expansion:
+  -2.0423600000000004 and 2.04235999999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 10
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:846
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:849: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.60446, EPSILON) )
+with expansion:
+  1.60446000000000022 and -1.60446 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 11
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:853
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:856: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(2.52142, EPSILON) )
+with expansion:
+  -2.52142530717958691 and 2.52141999999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 12
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:860
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:863: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.14777, EPSILON) )
+with expansion:
+  1.14776530717958658 and -1.14776999999999996 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 13
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:867
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:870: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.0506907, EPSILON) )
+with expansion:
+  -0.05069000000000003 and 0.0506907 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 14
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:874
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:877: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.984418, EPSILON) )
+with expansion:
+  0.98442000000000007 and -0.98441800000000002 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 15
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:881
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:884: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(1.1027, EPSILON) )
+with expansion:
+  -1.10269000000000017 and 1.10270000000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 16
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:888
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:891: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.03833, EPSILON) )
+with expansion:
+  2.03832570000000013 and -2.0383300000000002 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 17
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:895
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:898: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(1.72467, EPSILON) )
+with expansion:
+  -1.72466530717958655 and 1.72466999999999993 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 18
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:902
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:905: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(1.58172, EPSILON) )
+with expansion:
+  -1.58171899999999988 and 1.58172000000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 19
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:909
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:912: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.21866, EPSILON) )
+with expansion:
+  0.21865999999999991 and -0.21865999999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 20
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:916
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:919: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(2.33371, EPSILON) )
+with expansion:
+  -2.33371520000000032 and 2.33370999999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 21
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:923
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:926: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.746651, EPSILON) )
+with expansion:
+  -0.74665000000000015 and 0.74665099999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 22
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:930
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:933: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.96595, EPSILON) )
+with expansion:
+  2.96595530717958678 and -2.96594999999999986 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 23
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:937
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:940: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.568513, EPSILON) )
+with expansion:
+  -0.56850900000000004 and 0.56851300000000005 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 24
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:944
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:947: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.738702, EPSILON) )
+with expansion:
+  0.73870599999999997 and -0.73870199999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 25
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:951
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:954: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.12458, EPSILON) )
+with expansion:
+  2.12457530717958631 and -2.12457999999999991 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 26
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:958
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:961: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(1.58438, EPSILON) )
+with expansion:
+  -1.58438600000000007 and 1.5843799999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 27
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:965
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:968: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.577592, EPSILON) )
+with expansion:
+  0.57759199999999999 and -0.57759199999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 28
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:972
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:975: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(2.49231, EPSILON) )
+with expansion:
+  -2.49230900000000011 and 2.4923099999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 29
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:979
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:982: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.238686, EPSILON) )
+with expansion:
+  -0.2386800000000002 and 0.23868600000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 30
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:986
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:989: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.03425, EPSILON) )
+with expansion:
+  1.03424530717958651 and -1.03424999999999989 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 31
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:993
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:996: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(1.90571, EPSILON) )
+with expansion:
+  -1.90571599999999997 and 1.90571000000000002 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 32
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1000
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1003: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(3.04197, EPSILON) )
+with expansion:
+  -3.04196500000000025 and 3.04197000000000006 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 33
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1007
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1010: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.02745, EPSILON) )
+with expansion:
+  2.02745000000000042 and -2.02744999999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 34
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1014
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1017: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.70276, EPSILON) )
+with expansion:
+  -0.70276000000000005 and 0.70276000000000005 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 35
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1021
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1024: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.88357, EPSILON) )
+with expansion:
+  2.88356930717958626 and -2.88357000000000019 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 36
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1028
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1031: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.212735, EPSILON) )
+with expansion:
+  0.21273500000000004 and -0.21273500000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 37
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1035
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1038: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.828742, EPSILON) )
+with expansion:
+  0.82873899999999989 and -0.82874199999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 38
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1042
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1045: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.298135, EPSILON) )
+with expansion:
+  -0.29813499999999998 and 0.29813499999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 39
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1049
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1052: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(0.439667, EPSILON) )
+with expansion:
+  -0.439666 and 0.43966699999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 40
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1056
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1059: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(1.06682, EPSILON) )
+with expansion:
+  -1.06682530717958657 and 1.0668200000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 41
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1063
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1066: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.556052, EPSILON) )
+with expansion:
+  0.556045307179586 and -0.55605199999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 42
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1070
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1073: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.91747, EPSILON) )
+with expansion:
+  1.91747600000000018 and -1.91747000000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 43
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1077
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1080: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.49162, EPSILON) )
+with expansion:
+  1.49161530717958657 and -1.49161999999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 44
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1084
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1087: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.7659, EPSILON) )
+with expansion:
+  0.76590000000000014 and -0.76590000000000003 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 45
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1091
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1094: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.71141, EPSILON) )
+with expansion:
+  2.71140999999999988 and -2.71140999999999988 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 46
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1098
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1101: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-0.164019, EPSILON) )
+with expansion:
+  0.16402530717958652 and -0.164019 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 47
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1105
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1108: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.27211, EPSILON) )
+with expansion:
+  1.27211199999999991 and -1.27211000000000007 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 48
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1112
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1115: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-1.81414, EPSILON) )
+with expansion:
+  1.81414240000000015 and -1.81414000000000009 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+VelocityVector Utilities: angle_between
+  Random Test 49
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1119
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1122: FAILED:
+  REQUIRE_THAT( v1.angle_between(v2), WithinRel(-2.21692, EPSILON) )
+with expansion:
+  2.21692200000000028 and -2.21692 are within 0.1% of each other
+
+===============================================================================
+test cases:  1 |  1 failed
+assertions: 53 | 2 passed | 51 failed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"VelocityVector Utilities: angle_between" end time: Sep 15 12:50 EDT
+"VelocityVector Utilities: angle_between" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: Aerobody: get_wind
+6/7 Test: Aerobody: get_wind
+Command: "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/aerobody_tests" "Aerobody: get_wind"
+Directory: /home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody
+"Aerobody: get_wind" start time: Sep 15 12:50 EDT
+Output:
+----------------------------------------------------------
+Filters: "Aerobody: get_wind"
+Randomness seeded to: 3386571993
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aerobody_tests is a Catch2 v3.6.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Standard Test: Perpendicular
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1129
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1133: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(std::sqrt(2), EPSILON) )
+with expansion:
+  0.0 and 1.41421356237309515 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Standard Test: Parallel With Car
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1137
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1145: FAILED:
+  REQUIRE_THAT( wind_2.speed, WithinRel(9, EPSILON) )
+with expansion:
+  0.0 and 9.0 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Standard Test: Parallel Against Car
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1149
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1153: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(2, EPSILON) )
+with expansion:
+  0.0 and 2.0 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 0
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1161
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1165: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(130.225, EPSILON) )
+with expansion:
+  0.0 and 130.22499999999999432 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 1
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1169
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1173: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(160.027, EPSILON) )
+with expansion:
+  0.0 and 160.02699999999998681 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 2
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1177
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1181: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(88.1232, EPSILON) )
+with expansion:
+  0.0 and 88.12319999999999709 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 3
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1185
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1189: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(89.6561, EPSILON) )
+with expansion:
+  0.0 and 89.65609999999999502 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 4
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1193
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1197: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(91.2583, EPSILON) )
+with expansion:
+  0.0 and 91.25830000000000553 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 5
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1201
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1205: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(89.8301, EPSILON) )
+with expansion:
+  0.0 and 89.83010000000000161 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 6
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1209
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1213: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(73.7765, EPSILON) )
+with expansion:
+  0.0 and 73.77649999999999864 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 7
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1217
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1221: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(94.9481, EPSILON) )
+with expansion:
+  0.0 and 94.94809999999999661 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 8
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1225
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1229: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(55.3779, EPSILON) )
+with expansion:
+  0.0 and 55.37789999999999679 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 9
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1233
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1237: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(128.743, EPSILON) )
+with expansion:
+  0.0 and 128.742999999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 10
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1241
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1245: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(74.2428, EPSILON) )
+with expansion:
+  0.0 and 74.24280000000000257 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 11
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1249
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1253: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(140.51, EPSILON) )
+with expansion:
+  0.0 and 140.50999999999999091 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 12
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1257
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1261: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(69.9481, EPSILON) )
+with expansion:
+  0.0 and 69.94809999999999661 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 13
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1265
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1269: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(145.848, EPSILON) )
+with expansion:
+  0.0 and 145.84800000000001319 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 14
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1273
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1277: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(182.695, EPSILON) )
+with expansion:
+  0.0 and 182.69499999999999318 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 15
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1281
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1285: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(188.705, EPSILON) )
+with expansion:
+  0.0 and 188.70500000000001251 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 16
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1289
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1293: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(66.016, EPSILON) )
+with expansion:
+  0.0 and 66.01600000000000534 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 17
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1297
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1301: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(122.049, EPSILON) )
+with expansion:
+  0.0 and 122.04900000000000659 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 18
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1305
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1309: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(60.1518, EPSILON) )
+with expansion:
+  0.0 and 60.15180000000000149 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 19
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1313
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1317: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(184.089, EPSILON) )
+with expansion:
+  0.0 and 184.08899999999999864 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 20
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1321
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1325: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(49.1018, EPSILON) )
+with expansion:
+  0.0 and 49.10179999999999723 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 21
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1329
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1333: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(121.004, EPSILON) )
+with expansion:
+  0.0 and 121.00400000000000489 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 22
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1337
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1341: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(107.561, EPSILON) )
+with expansion:
+  0.0 and 107.56100000000000705 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 23
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1345
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1349: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(122.54, EPSILON) )
+with expansion:
+  0.0 and 122.54000000000000625 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 24
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1353
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1357: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(51.1888, EPSILON) )
+with expansion:
+  0.0 and 51.18880000000000052 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 25
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1361
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1365: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(117.779, EPSILON) )
+with expansion:
+  0.0 and 117.77899999999999636 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 26
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1369
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1373: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(145.255, EPSILON) )
+with expansion:
+  0.0 and 145.25499999999999545 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 27
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1377
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1381: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(169.203, EPSILON) )
+with expansion:
+  0.0 and 169.20300000000000296 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 28
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1385
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1389: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(127.007, EPSILON) )
+with expansion:
+  0.0 and 127.007000000000005 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 29
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1393
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1397: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(54.8995, EPSILON) )
+with expansion:
+  0.0 and 54.8995000000000033 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 30
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1401
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1405: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(60.0867, EPSILON) )
+with expansion:
+  0.0 and 60.08670000000000044 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 31
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1409
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1413: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(68.344, EPSILON) )
+with expansion:
+  0.0 and 68.34399999999999409 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 32
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1417
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1421: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(92.0459, EPSILON) )
+with expansion:
+  0.0 and 92.04590000000000316 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 33
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1425
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1429: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(38.8744, EPSILON) )
+with expansion:
+  0.0 and 38.8744000000000014 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 34
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1433
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1437: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(67.7521, EPSILON) )
+with expansion:
+  0.0 and 67.75209999999999866 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 35
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1441
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1445: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(76.8986, EPSILON) )
+with expansion:
+  0.0 and 76.89860000000000184 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 36
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1449
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1453: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(65.256, EPSILON) )
+with expansion:
+  0.0 and 65.25600000000000023 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 37
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1457
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1461: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(102.053, EPSILON) )
+with expansion:
+  0.0 and 102.05299999999999727 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 38
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1465
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1469: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(174.784, EPSILON) )
+with expansion:
+  0.0 and 174.78399999999999181 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 39
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1473
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1477: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(29.6984, EPSILON) )
+with expansion:
+  0.0 and 29.69839999999999947 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 40
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1481
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1485: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(105.653, EPSILON) )
+with expansion:
+  0.0 and 105.6530000000000058 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 41
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1489
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1493: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(47.2531, EPSILON) )
+with expansion:
+  0.0 and 47.25310000000000343 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 42
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1497
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1501: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(124.503, EPSILON) )
+with expansion:
+  0.0 and 124.50300000000000011 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 43
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1505
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1509: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(104.133, EPSILON) )
+with expansion:
+  0.0 and 104.13299999999999557 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 44
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1513
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1517: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(108.612, EPSILON) )
+with expansion:
+  0.0 and 108.61199999999999477 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 45
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1521
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1525: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(54.327, EPSILON) )
+with expansion:
+  0.0 and 54.32699999999999818 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 46
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1529
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1533: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(103.881, EPSILON) )
+with expansion:
+  0.0 and 103.88100000000000023 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 47
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1537
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1541: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(111.33, EPSILON) )
+with expansion:
+  0.0 and 111.32999999999999829 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 48
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1545
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1549: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(106, EPSILON) )
+with expansion:
+  0.0 and 106.0 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: get_wind
+  Random Test 49
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1553
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1557: FAILED:
+  REQUIRE_THAT( wind.speed, WithinRel(122.044, EPSILON) )
+with expansion:
+  0.0 and 122.04399999999999693 are within 0.1% of each other
+
+===============================================================================
+test cases:  1 |  1 failed
+assertions: 54 | 1 passed | 53 failed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"Aerobody: get_wind" end time: Sep 15 12:50 EDT
+"Aerobody: get_wind" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: Aerobody: aerodynamic_drag
+7/7 Test: Aerobody: aerodynamic_drag
+Command: "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/aerobody_tests" "Aerobody: aerodynamic_drag"
+Directory: /home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody
+"Aerobody: aerodynamic_drag" start time: Sep 15 12:50 EDT
+Output:
+----------------------------------------------------------
+Filters: "Aerobody: aerodynamic_drag"
+Randomness seeded to: 1873352476
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+aerobody_tests is a Catch2 v3.6.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Standard Test: Perpendicular
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1564
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1571: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0030625, EPSILON) )
+with expansion:
+  0.0 and 0.0030625 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 0
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1590
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1597: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0458186, EPSILON) )
+with expansion:
+  0.0 and 0.0458186 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 1
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1600
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1607: FAILED:
+  REQUIRE_THAT( drag, WithinRel(39.752, EPSILON) )
+with expansion:
+  0.0 and 39.75200000000000244 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 2
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1610
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1617: FAILED:
+  REQUIRE_THAT( drag, WithinRel(29.1594, EPSILON) )
+with expansion:
+  0.0 and 29.15940000000000154 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 3
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1620
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1627: FAILED:
+  REQUIRE_THAT( drag, WithinRel(35.5186, EPSILON) )
+with expansion:
+  0.0 and 35.51859999999999928 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 4
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1630
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1637: FAILED:
+  REQUIRE_THAT( drag, WithinRel(42.7129, EPSILON) )
+with expansion:
+  0.0 and 42.71289999999999765 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 5
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1640
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1647: FAILED:
+  REQUIRE_THAT( drag, WithinRel(3.12745, EPSILON) )
+with expansion:
+  0.0 and 3.12745000000000006 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 6
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1650
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1657: FAILED:
+  REQUIRE_THAT( drag, WithinRel(165.325, EPSILON) )
+with expansion:
+  0.0 and 165.32499999999998863 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 7
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1660
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1667: FAILED:
+  REQUIRE_THAT( drag, WithinRel(139.435, EPSILON) )
+with expansion:
+  0.0 and 139.43500000000000227 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 8
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1670
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1677: FAILED:
+  REQUIRE_THAT( drag, WithinRel(1.59778, EPSILON) )
+with expansion:
+  0.0 and 1.59777999999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 9
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1680
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1687: FAILED:
+  REQUIRE_THAT( drag, WithinRel(6.43768, EPSILON) )
+with expansion:
+  0.0 and 6.43768000000000029 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 10
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1690
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1697: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.107527, EPSILON) )
+with expansion:
+  0.0 and 0.107527 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 11
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1700
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1707: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.59917, EPSILON) )
+with expansion:
+  0.0 and 2.59916999999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 12
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1710
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1717: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.837146, EPSILON) )
+with expansion:
+  0.0 and 0.83714599999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 13
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1720
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1727: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.929049, EPSILON) )
+with expansion:
+  0.0 and 0.92904900000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 14
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1730
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1737: FAILED:
+  REQUIRE_THAT( drag, WithinRel(65.872, EPSILON) )
+with expansion:
+  0.0 and 65.87199999999999989 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 15
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1740
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1747: FAILED:
+  REQUIRE_THAT( drag, WithinRel(26.4554, EPSILON) )
+with expansion:
+  0.0 and 26.45540000000000092 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 16
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1750
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1757: FAILED:
+  REQUIRE_THAT( drag, WithinRel(49.7415, EPSILON) )
+with expansion:
+  0.0 and 49.74150000000000205 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 17
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1760
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1767: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0830034, EPSILON) )
+with expansion:
+  0.0 and 0.0830034 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 18
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1770
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1777: FAILED:
+  REQUIRE_THAT( drag, WithinRel(4.67065, EPSILON) )
+with expansion:
+  0.0 and 4.67065000000000019 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 19
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1780
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1787: FAILED:
+  REQUIRE_THAT( drag, WithinRel(1.0443, EPSILON) )
+with expansion:
+  0.0 and 1.04430000000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 20
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1790
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1797: FAILED:
+  REQUIRE_THAT( drag, WithinRel(7.56476, EPSILON) )
+with expansion:
+  0.0 and 7.56475999999999971 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 21
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1800
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1807: FAILED:
+  REQUIRE_THAT( drag, WithinRel(19.5832, EPSILON) )
+with expansion:
+  0.0 and 19.58320000000000149 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 22
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1810
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1817: FAILED:
+  REQUIRE_THAT( drag, WithinRel(213.049, EPSILON) )
+with expansion:
+  0.0 and 213.04900000000000659 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 23
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1820
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1827: FAILED:
+  REQUIRE_THAT( drag, WithinRel(9.13553, EPSILON) )
+with expansion:
+  0.0 and 9.13552999999999926 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 24
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1830
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1837: FAILED:
+  REQUIRE_THAT( drag, WithinRel(36.1258, EPSILON) )
+with expansion:
+  0.0 and 36.12579999999999814 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 25
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1840
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1847: FAILED:
+  REQUIRE_THAT( drag, WithinRel(18.7006, EPSILON) )
+with expansion:
+  0.0 and 18.70060000000000144 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 26
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1850
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1857: FAILED:
+  REQUIRE_THAT( drag, WithinRel(10.9342, EPSILON) )
+with expansion:
+  0.0 and 10.93420000000000059 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 27
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1860
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1867: FAILED:
+  REQUIRE_THAT( drag, WithinRel(10.2162, EPSILON) )
+with expansion:
+  0.0 and 10.21620000000000061 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 28
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1870
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1877: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.733099, EPSILON) )
+with expansion:
+  0.0 and 0.73309899999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 29
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1880
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1887: FAILED:
+  REQUIRE_THAT( drag, WithinRel(26.8619, EPSILON) )
+with expansion:
+  0.0 and 26.86189999999999856 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 30
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1890
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1897: FAILED:
+  REQUIRE_THAT( drag, WithinRel(1.34089, EPSILON) )
+with expansion:
+  0.0 and 1.34088999999999992 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 31
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1900
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1907: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.000580464, EPSILON) )
+with expansion:
+  0.0 and 0.000580464 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 32
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1910
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1917: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.122025, EPSILON) )
+with expansion:
+  0.0 and 0.12202499999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 33
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1920
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1927: FAILED:
+  REQUIRE_THAT( drag, WithinRel(578.316, EPSILON) )
+with expansion:
+  0.0 and 578.31600000000003092 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 34
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1930
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1937: FAILED:
+  REQUIRE_THAT( drag, WithinRel(78.3276, EPSILON) )
+with expansion:
+  0.0 and 78.32760000000000389 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 35
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1940
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1947: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.912634, EPSILON) )
+with expansion:
+  0.0 and 0.91263399999999995 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 36
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1950
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1957: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.758647, EPSILON) )
+with expansion:
+  0.0 and 0.75864699999999996 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 37
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1960
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1967: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0582705, EPSILON) )
+with expansion:
+  0.0 and 0.0582705 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 38
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1970
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1977: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.193696, EPSILON) )
+with expansion:
+  0.0 and 0.19369600000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 39
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1980
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1987: FAILED:
+  REQUIRE_THAT( drag, WithinRel(29.4986, EPSILON) )
+with expansion:
+  0.0 and 29.49859999999999971 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 40
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1990
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:1997: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.106264, EPSILON) )
+with expansion:
+  0.0 and 0.106264 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 41
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2000
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2007: FAILED:
+  REQUIRE_THAT( drag, WithinRel(1.98422, EPSILON) )
+with expansion:
+  0.0 and 1.98422000000000009 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 42
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2010
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2017: FAILED:
+  REQUIRE_THAT( drag, WithinRel(4.63031, EPSILON) )
+with expansion:
+  0.0 and 4.6303099999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 43
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2020
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2027: FAILED:
+  REQUIRE_THAT( drag, WithinRel(102.854, EPSILON) )
+with expansion:
+  0.0 and 102.8539999999999992 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 44
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2030
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2037: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0136273, EPSILON) )
+with expansion:
+  0.0 and 0.0136273 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 45
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2040
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2047: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.037951, EPSILON) )
+with expansion:
+  0.0 and 0.037951 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 46
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2050
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2057: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0109707, EPSILON) )
+with expansion:
+  0.0 and 0.0109707 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 47
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2060
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2067: FAILED:
+  REQUIRE_THAT( drag, WithinRel(3.66586, EPSILON) )
+with expansion:
+  0.0 and 3.6658599999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 48
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2070
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2077: FAILED:
+  REQUIRE_THAT( drag, WithinRel(3.10446, EPSILON) )
+with expansion:
+  0.0 and 3.10446 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 49
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2080
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2087: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0302461, EPSILON) )
+with expansion:
+  0.0 and 0.0302461 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 50
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2090
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2097: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.64735, EPSILON) )
+with expansion:
+  0.0 and 2.64734999999999987 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 51
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2100
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2107: FAILED:
+  REQUIRE_THAT( drag, WithinRel(25.2624, EPSILON) )
+with expansion:
+  0.0 and 25.26239999999999952 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 52
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2110
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2117: FAILED:
+  REQUIRE_THAT( drag, WithinRel(12.4242, EPSILON) )
+with expansion:
+  0.0 and 12.4242000000000008 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 53
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2120
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2127: FAILED:
+  REQUIRE_THAT( drag, WithinRel(6.07597, EPSILON) )
+with expansion:
+  0.0 and 6.07596999999999987 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 54
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2130
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2137: FAILED:
+  REQUIRE_THAT( drag, WithinRel(33.1205, EPSILON) )
+with expansion:
+  0.0 and 33.12049999999999983 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 55
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2140
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2147: FAILED:
+  REQUIRE_THAT( drag, WithinRel(4.47585, EPSILON) )
+with expansion:
+  0.0 and 4.47585000000000033 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 56
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2150
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2157: FAILED:
+  REQUIRE_THAT( drag, WithinRel(33.4857, EPSILON) )
+with expansion:
+  0.0 and 33.48570000000000135 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 57
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2160
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2167: FAILED:
+  REQUIRE_THAT( drag, WithinRel(35.4786, EPSILON) )
+with expansion:
+  0.0 and 35.47860000000000014 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 58
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2170
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2177: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0904108, EPSILON) )
+with expansion:
+  0.0 and 0.0904108 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 59
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2180
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2187: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.59801, EPSILON) )
+with expansion:
+  0.0 and 2.59800999999999993 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 60
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2190
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2197: FAILED:
+  REQUIRE_THAT( drag, WithinRel(89.4829, EPSILON) )
+with expansion:
+  0.0 and 89.48290000000000077 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 61
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2200
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2207: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0337505, EPSILON) )
+with expansion:
+  0.0 and 0.0337505 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 62
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2210
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2217: FAILED:
+  REQUIRE_THAT( drag, WithinRel(10.1847, EPSILON) )
+with expansion:
+  0.0 and 10.18469999999999942 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 63
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2220
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2227: FAILED:
+  REQUIRE_THAT( drag, WithinRel(10.5665, EPSILON) )
+with expansion:
+  0.0 and 10.56649999999999956 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 64
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2230
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2237: FAILED:
+  REQUIRE_THAT( drag, WithinRel(39.1544, EPSILON) )
+with expansion:
+  0.0 and 39.15440000000000254 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 65
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2240
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2247: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.76626, EPSILON) )
+with expansion:
+  0.0 and 2.76625999999999994 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 66
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2250
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2257: FAILED:
+  REQUIRE_THAT( drag, WithinRel(14.9173, EPSILON) )
+with expansion:
+  0.0 and 14.91729999999999912 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 67
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2260
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2267: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0169821, EPSILON) )
+with expansion:
+  0.0 and 0.0169821 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 68
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2270
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2277: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.304513, EPSILON) )
+with expansion:
+  0.0 and 0.30451299999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 69
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2280
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2287: FAILED:
+  REQUIRE_THAT( drag, WithinRel(155.175, EPSILON) )
+with expansion:
+  0.0 and 155.17500000000001137 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 70
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2290
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2297: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.39474, EPSILON) )
+with expansion:
+  0.0 and 2.39474000000000009 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 71
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2300
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2307: FAILED:
+  REQUIRE_THAT( drag, WithinRel(23.4989, EPSILON) )
+with expansion:
+  0.0 and 23.49889999999999901 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 72
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2310
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2317: FAILED:
+  REQUIRE_THAT( drag, WithinRel(21.0491, EPSILON) )
+with expansion:
+  0.0 and 21.04909999999999926 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 73
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2320
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2327: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.32005, EPSILON) )
+with expansion:
+  0.0 and 2.32005000000000017 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 74
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2330
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2337: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.070699, EPSILON) )
+with expansion:
+  0.0 and 0.070699 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 75
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2340
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2347: FAILED:
+  REQUIRE_THAT( drag, WithinRel(30.3682, EPSILON) )
+with expansion:
+  0.0 and 30.36820000000000164 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 76
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2350
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2357: FAILED:
+  REQUIRE_THAT( drag, WithinRel(32.0568, EPSILON) )
+with expansion:
+  0.0 and 32.05680000000000263 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 77
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2360
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2367: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0578149, EPSILON) )
+with expansion:
+  0.0 and 0.0578149 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 78
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2370
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2377: FAILED:
+  REQUIRE_THAT( drag, WithinRel(8.91943, EPSILON) )
+with expansion:
+  0.0 and 8.91943000000000019 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 79
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2380
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2387: FAILED:
+  REQUIRE_THAT( drag, WithinRel(53.4365, EPSILON) )
+with expansion:
+  0.0 and 53.43650000000000233 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 80
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2390
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2397: FAILED:
+  REQUIRE_THAT( drag, WithinRel(23.7254, EPSILON) )
+with expansion:
+  0.0 and 23.72540000000000049 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 81
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2400
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2407: FAILED:
+  REQUIRE_THAT( drag, WithinRel(25.2561, EPSILON) )
+with expansion:
+  0.0 and 25.25609999999999999 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 82
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2410
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2417: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.115824, EPSILON) )
+with expansion:
+  0.0 and 0.115824 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 83
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2420
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2427: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.000706734, EPSILON) )
+with expansion:
+  0.0 and 0.000706734 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 84
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2430
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2437: FAILED:
+  REQUIRE_THAT( drag, WithinRel(86.0871, EPSILON) )
+with expansion:
+  0.0 and 86.08710000000000662 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 85
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2440
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2447: FAILED:
+  REQUIRE_THAT( drag, WithinRel(108.182, EPSILON) )
+with expansion:
+  0.0 and 108.18200000000000216 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 86
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2450
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2457: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.677781, EPSILON) )
+with expansion:
+  0.0 and 0.67778099999999997 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 87
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2460
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2467: FAILED:
+  REQUIRE_THAT( drag, WithinRel(10.0213, EPSILON) )
+with expansion:
+  0.0 and 10.0213000000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 88
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2470
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2477: FAILED:
+  REQUIRE_THAT( drag, WithinRel(5.34921, EPSILON) )
+with expansion:
+  0.0 and 5.34921000000000024 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 89
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2480
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2487: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.1252, EPSILON) )
+with expansion:
+  0.0 and 2.12519999999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 90
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2490
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2497: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.18543, EPSILON) )
+with expansion:
+  0.0 and 0.18543000000000001 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 91
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2500
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2507: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.79201, EPSILON) )
+with expansion:
+  0.0 and 2.79200999999999988 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 92
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2510
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2517: FAILED:
+  REQUIRE_THAT( drag, WithinRel(38.0602, EPSILON) )
+with expansion:
+  0.0 and 38.06020000000000181 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 93
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2520
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2527: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.399097, EPSILON) )
+with expansion:
+  0.0 and 0.39909699999999998 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 94
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2530
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2537: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.0152687, EPSILON) )
+with expansion:
+  0.0 and 0.0152687 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 95
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2540
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2547: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.00845756, EPSILON) )
+with expansion:
+  0.0 and 0.00845756 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 96
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2550
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2557: FAILED:
+  REQUIRE_THAT( drag, WithinRel(3.47291, EPSILON) )
+with expansion:
+  0.0 and 3.47291000000000016 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 97
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2560
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2567: FAILED:
+  REQUIRE_THAT( drag, WithinRel(87.2664, EPSILON) )
+with expansion:
+  0.0 and 87.26640000000000441 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 98
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2570
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2577: FAILED:
+  REQUIRE_THAT( drag, WithinRel(2.95025, EPSILON) )
+with expansion:
+  0.0 and 2.95025000000000004 are within 0.1% of each other
+
+-------------------------------------------------------------------------------
+Aerobody: aerodynamic_drag
+  Random Test 99
+-------------------------------------------------------------------------------
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2580
+...............................................................................
+
+/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp:2587: FAILED:
+  REQUIRE_THAT( drag, WithinRel(0.392958, EPSILON) )
+with expansion:
+  0.0 and 0.39295799999999997 are within 0.1% of each other
+
+===============================================================================
+test cases:   1 |   1 failed
+assertions: 103 | 2 passed | 101 failed
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"Aerobody: aerodynamic_drag" end time: Sep 15 12:50 EDT
+"Aerobody: aerodynamic_drag" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 15 12:50 EDT
