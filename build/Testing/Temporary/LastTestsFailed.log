@@ -1,4 +1,1 @@
-4:VelocityVector Utilities: get_heading
-5:VelocityVector Utilities: angle_between
-6:Aerobody: get_wind
 7:Aerobody: aerodynamic_drag
