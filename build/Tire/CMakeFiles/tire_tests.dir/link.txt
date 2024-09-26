@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tire_tests.dir/TireTests.cpp.o -o tire_tests  libtire.a ../_deps/catch2-build/src/libCatch2Main.a ../_deps/catch2-build/src/libCatch2.a 

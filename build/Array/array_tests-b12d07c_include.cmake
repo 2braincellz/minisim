@@ -1,0 +1,5 @@
+if(EXISTS "/home/twobraincellz/Solar-Car/training-release/minisim/build/Array/array_tests-b12d07c_tests.cmake")
+  include("/home/twobraincellz/Solar-Car/training-release/minisim/build/Array/array_tests-b12d07c_tests.cmake")
+else()
+  add_test(array_tests_NOT_BUILT-b12d07c array_tests_NOT_BUILT-b12d07c)
+endif()

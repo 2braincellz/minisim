@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/array_tests.dir/ArrayTests.cpp.o -o array_tests  libarray.a ../_deps/catch2-build/src/libCatch2Main.a ../_deps/catch2-build/src/libCatch2.a 

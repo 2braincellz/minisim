@@ -44,7 +44,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/twobraincellz/Solar-Car/training-release/minisim/build/Array/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/twobraincellz/Solar-Car/training-release/minisim/build/Tire/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/twobraincellz/Solar-Car/training-release/minisim/build/Motor/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/twobraincellz/Solar-Car/training-release/minisim/build/Battery/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

@@ -648,6 +648,18 @@
   "output": "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o"
 },
 {
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Array",
+  "command": "/usr/bin/c++   -std=c++20 -o CMakeFiles/array.dir/Array.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Array/Array.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Array/Array.cpp",
+  "output": "Array/CMakeFiles/array.dir/Array.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Array",
+  "command": "/usr/bin/c++  -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-build/generated-includes -std=c++20 -o CMakeFiles/array_tests.dir/ArrayTests.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Array/ArrayTests.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Array/ArrayTests.cpp",
+  "output": "Array/CMakeFiles/array_tests.dir/ArrayTests.cpp.o"
+},
+{
   "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Aerobody",
   "command": "/usr/bin/c++   -std=c++20 -o CMakeFiles/aerobody.dir/Aerobody.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/Aerobody.cpp",
   "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/Aerobody.cpp",
@@ -658,5 +670,47 @@
   "command": "/usr/bin/c++  -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-build/generated-includes -std=c++20 -o CMakeFiles/aerobody_tests.dir/AerobodyTests.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp",
   "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Aerobody/AerobodyTests.cpp",
   "output": "Aerobody/CMakeFiles/aerobody_tests.dir/AerobodyTests.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Tire",
+  "command": "/usr/bin/c++   -std=c++20 -o CMakeFiles/tire.dir/Tire.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Tire/Tire.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Tire/Tire.cpp",
+  "output": "Tire/CMakeFiles/tire.dir/Tire.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Tire",
+  "command": "/usr/bin/c++  -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-build/generated-includes -std=c++20 -o CMakeFiles/tire_tests.dir/TireTests.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Tire/TireTests.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Tire/TireTests.cpp",
+  "output": "Tire/CMakeFiles/tire_tests.dir/TireTests.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Motor",
+  "command": "/usr/bin/c++   -std=c++20 -o CMakeFiles/motor.dir/Motor.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Motor/Motor.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Motor/Motor.cpp",
+  "output": "Motor/CMakeFiles/motor.dir/Motor.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Motor",
+  "command": "/usr/bin/c++  -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-build/generated-includes -std=c++20 -o CMakeFiles/motor_tests.dir/MotorTests.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Motor/MotorTests.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Motor/MotorTests.cpp",
+  "output": "Motor/CMakeFiles/motor_tests.dir/MotorTests.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Battery",
+  "command": "/usr/bin/c++   -std=c++20 -o CMakeFiles/battery.dir/Battery.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Battery/Battery.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Battery/Battery.cpp",
+  "output": "Battery/CMakeFiles/battery.dir/Battery.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Battery",
+  "command": "/usr/bin/c++   -std=c++20 -o CMakeFiles/battery.dir/BatteryState.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Battery/BatteryState.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Battery/BatteryState.cpp",
+  "output": "Battery/CMakeFiles/battery.dir/BatteryState.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/Battery",
+  "command": "/usr/bin/c++  -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-build/generated-includes -std=c++20 -o CMakeFiles/battery_tests.dir/BatteryTests.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/Battery/BatteryTests.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/Battery/BatteryTests.cpp",
+  "output": "Battery/CMakeFiles/battery_tests.dir/BatteryTests.cpp.o"
 }
 ]

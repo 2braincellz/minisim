@@ -530,6 +530,32 @@ Catch2WithMain/fast:
 .PHONY : Catch2WithMain/fast
 
 #=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array.dir/build.make Array/CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named array_tests
+
+# Build rule for target.
+array_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array_tests
+.PHONY : array_tests
+
+# fast build rule for target.
+array_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Array/CMakeFiles/array_tests.dir/build.make Array/CMakeFiles/array_tests.dir/build
+.PHONY : array_tests/fast
+
+#=============================================================================
 # Target rules for targets named aerobody
 
 # Build rule for target.
@@ -554,6 +580,84 @@ aerobody_tests: cmake_check_build_system
 aerobody_tests/fast:
 	$(MAKE) $(MAKESILENT) -f Aerobody/CMakeFiles/aerobody_tests.dir/build.make Aerobody/CMakeFiles/aerobody_tests.dir/build
 .PHONY : aerobody_tests/fast
+
+#=============================================================================
+# Target rules for targets named tire
+
+# Build rule for target.
+tire: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire
+.PHONY : tire
+
+# fast build rule for target.
+tire/fast:
+	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire.dir/build.make Tire/CMakeFiles/tire.dir/build
+.PHONY : tire/fast
+
+#=============================================================================
+# Target rules for targets named tire_tests
+
+# Build rule for target.
+tire_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tire_tests
+.PHONY : tire_tests
+
+# fast build rule for target.
+tire_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Tire/CMakeFiles/tire_tests.dir/build.make Tire/CMakeFiles/tire_tests.dir/build
+.PHONY : tire_tests/fast
+
+#=============================================================================
+# Target rules for targets named motor
+
+# Build rule for target.
+motor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor
+.PHONY : motor
+
+# fast build rule for target.
+motor/fast:
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor.dir/build.make Motor/CMakeFiles/motor.dir/build
+.PHONY : motor/fast
+
+#=============================================================================
+# Target rules for targets named motor_tests
+
+# Build rule for target.
+motor_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor_tests
+.PHONY : motor_tests
+
+# fast build rule for target.
+motor_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Motor/CMakeFiles/motor_tests.dir/build.make Motor/CMakeFiles/motor_tests.dir/build
+.PHONY : motor_tests/fast
+
+#=============================================================================
+# Target rules for targets named battery
+
+# Build rule for target.
+battery: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery
+.PHONY : battery
+
+# fast build rule for target.
+battery/fast:
+	$(MAKE) $(MAKESILENT) -f Battery/CMakeFiles/battery.dir/build.make Battery/CMakeFiles/battery.dir/build
+.PHONY : battery/fast
+
+#=============================================================================
+# Target rules for targets named battery_tests
+
+# Build rule for target.
+battery_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_tests
+.PHONY : battery_tests
+
+# fast build rule for target.
+battery_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Battery/CMakeFiles/battery_tests.dir/build.make Battery/CMakeFiles/battery_tests.dir/build
+.PHONY : battery_tests/fast
 
 minisim.o: minisim.cpp.o
 .PHONY : minisim.o
@@ -620,7 +724,15 @@ help:
 	@echo "... Catch2WithMain"
 	@echo "... aerobody"
 	@echo "... aerobody_tests"
+	@echo "... array"
+	@echo "... array_tests"
+	@echo "... battery"
+	@echo "... battery_tests"
 	@echo "... minisim"
+	@echo "... motor"
+	@echo "... motor_tests"
+	@echo "... tire"
+	@echo "... tire_tests"
 	@echo "... minisim.o"
 	@echo "... minisim.i"
 	@echo "... minisim.s"
