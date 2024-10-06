@@ -1,17 +1,54 @@
-cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
+add_subdirectory(ConfigFile)
+add_subdirectory(DataClasses)
+add_subdirectory(RaceConfig)
+add_subdirectory(SolarCar)
+add_subdirectory(Tools)
 
-project(
-	minisim
-	VERSION 0.1
-	DESCRIPTION "A Basic C++ Solar Car Physics Simulator"
-	LANGUAGES
-		CXX
+add_library(tools INTERFACE)
+target_link_libraries(
+	tools
+	INTERFACE
+		config_file
+		dataclasses
+		external_tools
+		internal_tools
 )
 
-# We Use C++20 Whenever Possible
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-# We don't want compiler-specific extensions be be accessible
-set(CMAKE_CXX_EXTENSIONS OFF)
+target_include_directories(
+	tools
+	INTERFACE
+		${PROJECT_SOURCE_DIR}/src
+		${PROJECT_SOURCE_DIR}/external
+)
+
+add_library(simulator_dependencies INTERFACE)
+target_link_libraries(
+	simulator_dependencies
+	INTERFACE
+		solarcar
+		raceconfig
+)
 
 add_executable(minisim minisim.cpp)
+target_link_libraries(
+	minisim
+	PRIVATE
+		tools
+		simulator_dependencies
+)
+
+# Create a Symbolic Link to the Simulator executable
+add_custom_target(
+	MinisimLink
+	ALL
+	COMMAND
+		${CMAKE_COMMAND} -E create_symlink ${CMAKE_CURRENT_BINARY_DIR}/minisim
+		${CMAKE_BINARY_DIR}/minisim
+	COMMAND
+		${CMAKE_COMMAND} -E create_symlink ${CMAKE_CURRENT_BINARY_DIR}/minisim
+		${CMAKE_BINARY_DIR}/minisim.exe
+	DEPENDS
+		minisim
+	COMMENT "Creating symbolic link to minisim executable"
+	VERBATIM
+)
