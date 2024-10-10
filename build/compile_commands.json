@@ -898,5 +898,29 @@
   "command": "/usr/bin/c++ -DNDEBUG -I/home/twobraincellz/Solar-Car/training-release/minisim/build -I/home/twobraincellz/Solar-Car/training-release/minisim -I/home/twobraincellz/Solar-Car/training-release/minisim/src -I/home/twobraincellz/Solar-Car/training-release/minisim/external -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O3 -O3 -DNDEBUG -std=c++20 -flto=auto -fno-fat-lto-objects -o CMakeFiles/root_binary_search.dir/RootBinarySearch.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/src/Tools/RootBinarySearch.cpp",
   "file": "/home/twobraincellz/Solar-Car/training-release/minisim/src/Tools/RootBinarySearch.cpp",
   "output": "src/Tools/CMakeFiles/root_binary_search.dir/RootBinarySearch.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/src/RaceSegmentRunner",
+  "command": "/usr/bin/c++ -DNDEBUG -I/home/twobraincellz/Solar-Car/training-release/minisim/build -I/home/twobraincellz/Solar-Car/training-release/minisim -I/home/twobraincellz/Solar-Car/training-release/minisim/src -I/home/twobraincellz/Solar-Car/training-release/minisim/external -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O3 -O3 -DNDEBUG -std=c++20 -flto=auto -fno-fat-lto-objects -o CMakeFiles/race_segment_runner.dir/RaceSegmentRunner.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/src/RaceSegmentRunner/RaceSegmentRunner.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceSegmentRunner/RaceSegmentRunner.cpp",
+  "output": "src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/RaceSegmentRunner.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/src/RaceSegmentRunner",
+  "command": "/usr/bin/c++ -DNDEBUG -I/home/twobraincellz/Solar-Car/training-release/minisim/build -I/home/twobraincellz/Solar-Car/training-release/minisim -I/home/twobraincellz/Solar-Car/training-release/minisim/src -I/home/twobraincellz/Solar-Car/training-release/minisim/external -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-build/generated-includes -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O3 -O3 -DNDEBUG -std=c++20 -flto=auto -fno-fat-lto-objects -o CMakeFiles/race_segment_runner_tests.dir/RaceSegmentRunnerTests.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/src/RaceSegmentRunner/RaceSegmentRunnerTests.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceSegmentRunner/RaceSegmentRunnerTests.cpp",
+  "output": "src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/RaceSegmentRunnerTests.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/src/RaceRunner",
+  "command": "/usr/bin/c++ -DNDEBUG -I/home/twobraincellz/Solar-Car/training-release/minisim/build -I/home/twobraincellz/Solar-Car/training-release/minisim -I/home/twobraincellz/Solar-Car/training-release/minisim/src -I/home/twobraincellz/Solar-Car/training-release/minisim/external -I/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceConfig/WeatherStations/RaceConfig -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O3 -O3 -DNDEBUG -std=c++20 -flto=auto -fno-fat-lto-objects -o CMakeFiles/racerunner.dir/RaceRunner.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/src/RaceRunner/RaceRunner.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceRunner/RaceRunner.cpp",
+  "output": "src/RaceRunner/CMakeFiles/racerunner.dir/RaceRunner.cpp.o"
+},
+{
+  "directory": "/home/twobraincellz/Solar-Car/training-release/minisim/build/src/RaceRunner",
+  "command": "/usr/bin/c++ -DNDEBUG -I/home/twobraincellz/Solar-Car/training-release/minisim/build -I/home/twobraincellz/Solar-Car/training-release/minisim -I/home/twobraincellz/Solar-Car/training-release/minisim/src -I/home/twobraincellz/Solar-Car/training-release/minisim/external -I/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceConfig/WeatherStations/RaceConfig -I/home/twobraincellz/Solar-Car/training-release/minisim/build/src -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-src/src/catch2/.. -isystem /home/twobraincellz/Solar-Car/training-release/minisim/build/_deps/catch2-build/generated-includes -Wall -Wextra -Wpedantic -Werror -Wno-error=attributes -g -O3 -O3 -DNDEBUG -std=c++20 -flto=auto -fno-fat-lto-objects -o CMakeFiles/racerunner_tests.dir/RaceRunnerTests.cpp.o -c /home/twobraincellz/Solar-Car/training-release/minisim/src/RaceRunner/RaceRunnerTests.cpp",
+  "file": "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceRunner/RaceRunnerTests.cpp",
+  "output": "src/RaceRunner/CMakeFiles/racerunner_tests.dir/RaceRunnerTests.cpp.o"
 }
 ]

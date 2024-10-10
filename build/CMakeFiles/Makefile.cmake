@@ -35,6 +35,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceConfig/SolarPosition/CMakeLists.txt"
   "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceConfig/Weather/CMakeLists.txt"
   "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceConfig/WeatherStations/CMakeLists.txt"
+  "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceRunner/CMakeLists.txt"
+  "/home/twobraincellz/Solar-Car/training-release/minisim/src/RaceSegmentRunner/CMakeLists.txt"
   "/home/twobraincellz/Solar-Car/training-release/minisim/src/SolarCar/Aerobody/CMakeLists.txt"
   "/home/twobraincellz/Solar-Car/training-release/minisim/src/SolarCar/Array/CMakeLists.txt"
   "/home/twobraincellz/Solar-Car/training-release/minisim/src/SolarCar/Battery/CMakeLists.txt"
@@ -125,6 +127,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/SolarCar/Tire/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Tools/RootDirectory.h"
   "src/Tools/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/RaceSegmentRunner/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/RaceRunner/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -191,4 +195,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Tools/CMakeFiles/root_binary_search.dir/DependInfo.cmake"
   "src/Tools/CMakeFiles/parsing.dir/DependInfo.cmake"
   "src/Tools/CMakeFiles/time_tools.dir/DependInfo.cmake"
+  "src/RaceSegmentRunner/CMakeFiles/race_segment_runner.dir/DependInfo.cmake"
+  "src/RaceSegmentRunner/CMakeFiles/race_segment_runner_tests.dir/DependInfo.cmake"
+  "src/RaceRunner/CMakeFiles/racerunner.dir/DependInfo.cmake"
+  "src/RaceRunner/CMakeFiles/racerunner_tests.dir/DependInfo.cmake"
   )

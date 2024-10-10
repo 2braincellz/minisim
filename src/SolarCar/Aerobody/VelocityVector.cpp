@@ -4,7 +4,7 @@
 #include <cmath>
 #include <numbers>  // 2π = std::numbers::pi * 2
 #include <iostream>
-#include "VelocityVector.h"
+#include <VelocityVector.h>
 
 static VelocityVector::from_cartesian_components(double north_south, double east_west) {
     return VelocityVector(north_south, east_west);
@@ -55,3 +55,5 @@ double VelocityVector::angle_between(const VelocityVector& other) const {
 		return -std::atan2(cross_product, dot_product);
 }
 
+VelocityVector::VelocityVector(double north_south, double east_west) 
+    :north_south(north_south), east_west(east_west) {}

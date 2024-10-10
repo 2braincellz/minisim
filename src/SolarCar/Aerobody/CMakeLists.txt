@@ -1,5 +1,13 @@
 add_library(aerobody STATIC)
 
+# target_sources(aerobody 
+# PUBLIC 
+# 	Aerobody.h 
+# 	VelocityVector.h
+# PRIVATE 
+# 	Aerobody.cpp 
+# 	VelocityVector.cpp)
+
 target_sources(aerobody PUBLIC Aerobody.h PRIVATE Aerobody.cpp)
 
 add_executable(aerobody_tests AerobodyTests.cpp)
